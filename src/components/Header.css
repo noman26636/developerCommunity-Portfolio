@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap");
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 2000;
+}
+
+.header-left {
+  flex: 0.4;
+}
+
+.header-left > h1 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 2px;
+  padding: 20px 0;
+}
+
+.header-left > h1 > span {
+  color: #f64c08;
+  font-display: initial;
+}
+
+
+.header-right {
+  display: flex;
+  flex: 0.6;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.header-right > a > h4 {
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  padding: 20px 0;
+}
+
+.header-right > a > h4:hover {
+  transform: scale(1.09);
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: "Roboto", serif;
+  cursor: pointer;
+}
+
+.header-rightButton {
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px !important;
+  border-radius: 4px;
+  cursor: pointer;
+}

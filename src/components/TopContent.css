@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+
+.topContent {
+    color: white;
+   
+}
+.typed{
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 5px;
+    text-align: left;
+    padding-left: 1px;
+    padding-top: 20px;
+    position: absolute;
+    top: 180px;
+    font-weight: 650;
+    right: 120px;
+    font-size: 50px;
+
+    
+    
+}
+.topContent-container{
+     position: absolute;
+     top: 270px;
+     right: 170px;
+}
+
+.topContent-container > p  {
+    font-family: "Roboto Condense", sans-serif;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding-left: 1px;
+    padding-top: 20px;
+}
+
+.topContent-container > h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    display: inline-flex;
+}
+
+.topContent-container > a > button {
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    
+    border-radius: 2px;
+    outline: none;
+}
+
+
+.topContent-buttondownload{
+          color: white;
+          background-color: #f64c08;
+          font-size: 14px;
+          padding : 10px 20px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 300;
+          cursor: pointer;
+          margin-right: 20px;
+        }
+.topContent-buttondownload:hover{
+    color: #f64c08;
+    background-color: white;
+    font-weight: 600;
+}
+
+.topContent-buttonWork:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
+        .topContent-buttonWork{
+            color: white;
+            border : 1px solid white !important;
+            background-color:  transparent;
+          font-size: 14px;
+          padding : 9px 45px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 300;
+          cursor: pointer;
+          
+            
+        }

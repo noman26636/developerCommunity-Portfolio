@@ -1,0 +1,10 @@
+.topContainer{
+    background: url(../assests/pexels-pixabay-267507.jpg);
+    height: 100vh;
+    width: 200vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0,0, 0.5);
+ 
+}
